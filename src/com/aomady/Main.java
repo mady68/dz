@@ -42,7 +42,6 @@ public class Main {
             //Creating Combos//
             Combo emptyBottle = new Combo(bottle, cup, bottleEmpty, "You boiled Potion from bottle \n " +
                     "to cup and drunk all Potion..You get a protection aura of nature..and...bottle is empty", "bottle is empty..:(");
-            //Combo flowerVase = new Combo(rose, vase, flowerInVase, "You take flower from a floor and put it into vase.", "flower is weak..not standing");
 
             Combo bucketRopeCombo = new Combo(rope, bucket, bucketWithRope, "You linked backet with rope", "backet is empty");
             Combo bucketRopeWellCombo = new Combo(bucketWithRope, well, bucketWithWater, "You fill up the backet with water", "backet with water2");
@@ -68,9 +67,6 @@ public class Main {
             mapItems.put("monument", monument);
             mapItems.put("dragon", dragon);
             mapItems.put("stick", stick);
-
-            // mapItems.put("chain", chain);
-
 
             //Creating HashMap for mapping the String (error description) to each pair of items in combo//
             Map<String, String> noCombo = new HashMap<>();
